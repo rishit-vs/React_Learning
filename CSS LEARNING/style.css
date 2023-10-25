@@ -1,0 +1,15 @@
+h1{
+    color: orange;
+}
+.para{
+    color: palegreen;
+}
+#btn{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+#btn:hover{
+    background-color: black;
+}
