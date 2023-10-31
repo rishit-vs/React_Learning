@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import DataFetching from './component/useEffectFetching/DataFetching';
+// import HookCounterOne from './component/useEffect/HookCounterOne';
+// import HookMouse from './component/useEffect/HookMouse';
+// import MouseContainer from './component/useEffect/MouseContainer';
+// import InternalHookCounter from './component/useEffect/InternalHookCounter';
+// import HookCounter from './component/HookCounter';
+// import HookCounterTwo from './component/HookCounterTwo';
+// import HookCounterThree from './component/HookCounterThree';
+// import HookCounterFour from './component/HookCounterFour';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Fetching using useEffect</h1> */}
+      {/* <HookCounter /> */}
+      {/* <HookCounterTwo /> */}
+      {/* <HookCounterThree /> */}
+      {/* <HookCounterFour /> */}
+      <DataFetching />
+      {/* <HookCounterOne /> */}
+      {/* <HookMouse /> */}
+      {/* <MouseContainer /> */}
+      {/* <InternalHookCounter /> */}
+
     </div>
   );
 }
